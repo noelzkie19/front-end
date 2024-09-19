@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  mlab-front-end:
+    build:
+      context: .
+    ports:
+      - '8080:80'
