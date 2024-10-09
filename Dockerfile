@@ -1,5 +1,5 @@
 #pull official base image
-FROM node:14.17.6 AS builder
+FROM node:16.10.0 AS builder
 
 # set working directory
 WORKDIR /app
@@ -12,8 +12,8 @@ COPY package.json ./
 # Installs all node packages
 RUN yarn cache clean
 RUN yarn install
-RUN yarn remove sass
-RUN yarn add node-sass@4.14.1
+#RUN yarn remove sass
+#RUN yarn add node-sass@4.14.1
 RUN yarn add npm-force-resolutions
 
 # fontawesome
