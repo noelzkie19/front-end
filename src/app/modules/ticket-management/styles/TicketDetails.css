@@ -1,0 +1,8 @@
+.sticky {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Adjust as needed */
+    z-index: 1000; /* Ensures it stays above other elements */
+    background-color: white; /* Add background to avoid transparency issues */
+    padding: 1rem; /* Optional: for better appearance */
+  }

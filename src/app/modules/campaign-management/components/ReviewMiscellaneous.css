@@ -1,0 +1,11 @@
+.icon-spacing {
+  margin: 0 2rem 0 0;
+} 
+
+.total-score span{
+  margin-right: 20px;
+}
+
+.total-score input {
+  text-align: right;
+}

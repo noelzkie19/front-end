@@ -1,0 +1,58 @@
+.case-tabitem.active {
+    color:#181C32 !important;
+}
+
+.communication-tabitem.active {
+    color:#181C32 !important;
+}
+.communication-tabitem:not(.active){
+    background-color:#009EF7 !important;
+    color: #fff !important;
+}
+
+.pcs-list  .ag-root-wrapper{
+    border: none !important;
+} 
+
+.case-communication-nav-item
+{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #009EF7;
+    cursor: pointer;
+}
+.case-tab-active{
+    color: #5e6278;
+    background-color: #fff;
+    border-color: #e4e6ef #e4e6ef #fff;
+}
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.splash-screen-drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f2f3f8;
+}
+
+.splash-screen-drawer img {
+    margin-left: calc(100vw - 100%);
+    margin-bottom: 30px;
+}
+
+.reported-date > div > svg{
+    display: none;
+}
+
+.rs-picker-disabled {
+    opacity: 1;
+}

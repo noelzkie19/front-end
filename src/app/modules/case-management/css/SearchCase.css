@@ -1,0 +1,5 @@
+#campaign-list-button-tooltip > .tooltip-inner {
+    text-align: left;
+    overflow: hidden;
+    word-break: break-all;
+}

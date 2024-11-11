@@ -1,0 +1,23 @@
+.campaign-tabitem {
+	font-size: 20px;
+	font-weight: bold;
+}
+.campaign-goal .select-search__value {
+	z-index: 0 !important;
+}
+.campaign .nav-link {
+	padding: 0.5rem 7rem !important;
+}
+.campaign .rs-picker-default .rs-picker-toggle {
+	z-index: 0 !important;
+}
+.form-group {
+	padding: none !important;
+}
+.rs-picker-menu .rs-picker-toolbar {
+	max-width: fit-content !important;
+}
+.ql-tooltip.ql-editing.ql-flip {
+	left: 0 !important;
+	top: -23.6px !important;
+}

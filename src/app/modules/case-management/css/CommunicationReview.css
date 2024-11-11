@@ -1,0 +1,78 @@
+.info-counter {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #009EF7;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: normal;
+}
+
+.communication-info {
+    margin: 20px;
+}
+
+.communication-info::after {
+    content: attr(title);
+    background: #009EF7; /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    padding: 5px; /* Tooltip padding */
+    border-radius: 3px; /* Tooltip border radius */
+    position: absolute;
+    bottom: -30px; /* Adjust as needed to position the tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; /* Prevent text from breaking into new lines */
+    font-size: 14px; /* Tooltip text size */
+}
+
+.review-benchmark{
+    width: 180px;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color: #009ef7;
+    border-color: #009ef7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-score {
+    width: 180;
+    height: 50;
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-color: #009ef7;
+}
+
+.review-legends {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.communication-review-drawer {
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}

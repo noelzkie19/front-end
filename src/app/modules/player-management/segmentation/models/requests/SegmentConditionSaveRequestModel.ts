@@ -1,0 +1,17 @@
+export interface SegmentConditionSaveRequestModel {
+    segmentConditionId: number,
+    segmentId: number,
+    segmentName: string,
+    segmentConditionType: string,
+    segmentConditionLogicOperator: string,
+    segmentConditionFieldId?: number,
+    relationalOperatorId?: number,
+    segmentConditionValue: string,
+    segmentConditionValue2: string,
+    key: string,
+    parentKey?: string,
+    createdBy: number,
+    updatedBy: number,
+    fieldLocked?: boolean,
+    operatorLocked?: boolean,
+}

@@ -1,0 +1,27 @@
+.disableListBox {
+    --mslb-bg-color: #EFF2F5 !important;
+    --mslb-btn-bg-add-color: #B5B5C3 !important;
+    --mslb-btn-bg-remove-color: #B5B5C3 !important;
+    --mslb-item-hover-bg-color: transparent !important;
+    
+    input, button {
+        pointer-events: none;
+
+        div {
+            pointer-events: none;
+        }
+    }
+}
+
+div.multi-select-container > div {
+    background-color: var(--mslb-bg-color);
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border: 1px solid var(--mslb-border-color);
+    position: relative;
+    color: var(--mslb-font-color);
+    > div:first-child {
+        border-right: 1px solid var(--mslb-border-color) !important;
+    }
+}

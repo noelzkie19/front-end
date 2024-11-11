@@ -1,0 +1,21 @@
+#comment-history-tabpane-history .card.card-custom {
+    background: transparent;
+}
+
+.ag-body-viewport {
+    overflow-x: hidden !important;
+}
+
+.collab-add-container > div:last-child {
+    margin: auto 0;
+    padding-top: 6px;
+}
+
+.collab-add-container > div:first-child {
+    margin-bottom: 20px;
+}
+
+#comment-history-tabpane-history .mlab-grid-pagination,
+#comment-history-tabpane-history .mlab-small-grid-pagination {
+    background: #fff;
+}

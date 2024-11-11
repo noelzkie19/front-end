@@ -1,0 +1,51 @@
+.tabbable-custom > ul > li > div{
+    background-color:#009ef7 !important;
+}
+
+.tabbable-custom .nav-link ,.nav-link-label{
+    color:rgb(255 255 255) !important;
+    /* font-weight: bold; */
+    border-color:#78ceff #54afe3 #54afe3 !important;
+
+    /* width: 100px;
+    display: flex;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; */
+}
+.tabbable-custom .nav-link{
+    display: flex;
+}
+.tabbable-custom .nav-link-label{
+    min-width: auto;
+    max-width: 100px;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.tabbable-custom .nav-link.active{
+    border-color: #9d9d9d #9d9d9d #ffffff !important;
+    background-color:  #fff !important;
+    color:#2c2c2c !important;
+}
+
+.tabbable-custom  .nav-link-label.active{
+    color:#2c2c2c !important;
+}
+.tabbable-custom > .tab-content{
+    background-color: #fff;
+    border: 1px solid;
+    padding: 10px;
+    border-color: #fff #9d9d9d #9d9d9d #9d9d9d;
+    min-height: 400px;
+}
+
+.tabbable-custom .nav-tab-border{
+    border-bottom: 1px solid #9d9d9d !important;
+}
+
+
+.tabbable-custom .nav-link:hover{
+    color: #fff;
+}

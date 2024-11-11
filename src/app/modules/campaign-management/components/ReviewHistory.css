@@ -1,0 +1,11 @@
+.not-primary {
+  color: #ccc !important;
+}
+
+.draft-text {
+  color: #FF0000;
+}
+
+.icon-spacing {
+  margin: 0 2rem 0 0;
+} 

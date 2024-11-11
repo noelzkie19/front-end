@@ -1,0 +1,17 @@
+div.ag-theme-quartz {
+    font-size: 13px !important;
+    font-weight: 400;
+    font-family: -apple-system, Poppins, Helvetica, sans-serif
+}
+div.ag-theme-quartz div.ag-row {
+    font-family: -apple-system, Poppins, Helvetica, sans-serif;
+    border-color: inherit;
+    border-width: inherit;
+    border-style: inherit;
+    text-transform: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    height: inherit;
+    min-height: inherit;
+}

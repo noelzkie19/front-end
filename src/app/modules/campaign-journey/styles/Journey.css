@@ -1,0 +1,106 @@
+.journey-tabitem {
+    font-size: 20px;
+    font-weight: bold;
+}
+.journey .nav-link {
+    padding: 0.5rem 7rem !important;
+}
+.journey .rs-picker-default .rs-picker-toggle {
+    z-index: 0 !important;
+}
+.form-group {
+    padding: none !important
+}
+.rs-picker-menu .rs-picker-toolbar {
+    max-width: fit-content !important;
+}
+
+.journey-info-field {
+    word-break: break-all;
+}
+
+
+.nav-prev {
+    margin-right: 5px;
+}
+.nav-next {
+    margin-left: 5px;
+}
+
+.card-selected {
+    border: #0095E8 !important;
+    border-style: solid !important;
+}
+
+/* .card-body-text {
+    display: block;
+    white-space: nowrap; 
+    height: 50px;
+    width: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+.card-body-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    height: 37px !important;
+  }
+
+.box-primary-goal {
+    display: inline-flex;
+    margin: auto;
+    background-color: lightgray;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    font-weight: 600;
+}
+
+.box-status {
+    display: inline-flex;
+    margin: auto;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    font-weight: 400;
+}
+
+.active-campaign {
+    background-color: green;
+}
+.inactive-campaign {
+    background-color: red;
+}
+.completed-campaign {
+    background-color: #0095E8;
+}
+
+@keyframes spinner {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #383636; /* Blue */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+  }
+  
+  .spinner-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+  }

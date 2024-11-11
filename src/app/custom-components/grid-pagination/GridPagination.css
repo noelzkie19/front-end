@@ -1,0 +1,51 @@
+
+div.mlab-grid-pagination, div.mlab-small-grid-pagination {
+    font-family: -apple-system, Poppins, Helvetica, sans-serif;
+    border: 1px solid #babfc7;
+    position: relative;
+    height: 48px;
+}
+
+div.mlab-grid-pagination-summary-panel{
+    padding: 12px 20px;
+    float:right
+}
+
+div.mlab-small-grid-pagination-summary-panel{
+    padding: 12px 0px;
+    text-align: center;
+}
+
+div.mlab-grid-pagination-summary-panel b, div.mlab-small-grid-pagination-summary-panel b{
+    font-weight: 700;    
+}
+
+div.mlab-grid-pagination-summary-panel span{
+    float:left;
+    margin: 2px 3px 0;
+}
+
+div.mlab-small-grid-pagination-summary-panel span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+div.mlab-grid-pagination-summary-panel .ag-paging-button{
+    float:left;
+}
+
+div.mlab-small-grid-pagination-summary-panel .ag-paging-button{
+    display: inline-flex;
+    vertical-align: middle;
+    background: transparent;
+    padding: 0;
+}
+
+div.mlab-small-grid-pagination-summary-panel .ag-paging-button:focus,
+div.mlab-small-grid-pagination-summary-panel .ag-paging-button.ag-disabled:focus {
+    box-shadow: none;
+}
+
+div.mlab-grid-pagination-summary-panel .ag-icon{
+    margin: 4px 0 0;
+}

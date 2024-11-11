@@ -1,0 +1,41 @@
+import {MasterReferenceOptionModel} from '../../../common/model';
+import {UserOptionModel} from '../../user-management/models';
+
+export default interface Props {
+	communicationId?: string;
+	externalId?: string;
+	selectedPurpose: any;
+	communicationOwner: any;
+	setCommunicationOwner: (e: any) => void;
+	setSelectedPurpose: (e: any) => void;
+	selectedMessageType: any;
+	setSelectedMessageType: (e: any) => void;
+	selectedMessageStatus: any;
+	setSelectedMessageStatus: (e: any) => void;
+	selectedMessageResponse: any;
+	setSelectedMessageResponse: (e: any) => void;
+	messageTypeOptions: Array<any>;
+	messageStatusOptions: Array<any>;
+	messageResponseOptions: Array<any>;
+	setStartCommunicationDate: (e: any) => void;
+	setStartCommunicationDatePost: (e: string) => void;
+	setEndCommunicationDate: (e: any) => void;
+	setEndCommunicationDatePost: (e: string) => void;
+	openStartCommunication: boolean;
+	setOpenStartCommunication: (e: boolean) => void;
+	startCommunicationDate: any;
+	setOpenEndCommunication: (e: boolean) => void;
+	openEndCommunication: boolean;
+	endCommunicationDate: any;
+	setConvertedContent: (e: any) => void;
+	convertedContent: any;
+	userList: Array<UserOptionModel>;
+	masterReferenceOptions: Array<MasterReferenceOptionModel>;
+	duration: string;
+	setDuration: (e: string) => void;
+	isChatIntegrationCommunication: boolean;
+	setCommAnnotationUpdated?: (e: string) => void;
+	isEdit?: boolean;
+	reportedDate?: any;
+	setReportedDate?: (e: any) => void;
+}

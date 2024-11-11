@@ -1,0 +1,25 @@
+.for-review-container {
+    margin-bottom: 20px;
+}
+
+.for-review-container #addManualBalanceCorrection {
+    border-radius: 3px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: 10px;
+}
+
+.for-review-container #addManualBalanceCorrection:checked {
+    background-color: #000;
+    border-color: #000;
+}
+
+.for-review-container .checkbox-container {
+    margin: 10px 0px;
+}
+
+.amount-note {
+    color: red;
+    font-style: italic;
+}

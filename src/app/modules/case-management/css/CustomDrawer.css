@@ -1,0 +1,32 @@
+.custom-drawer .rs-drawer-header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-drawer .rs-drawer-close-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #000; /* Set the color of the arrow */
+    cursor: pointer;
+}
+
+.custom-drawer .rs-drawer-close-btn:before {
+    content: '\2192'; /* Unicode for right arrow */
+}
+
+.rs-drawer-body-close {
+    position: initial;
+    left: 15px;
+    top: 25px;
+    float: right;
+    display: none;
+}
+
+.rs-drawer-body {
+    position: relative;
+    padding: 10px 20px;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 50px;
+}

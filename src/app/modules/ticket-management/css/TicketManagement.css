@@ -1,0 +1,35 @@
+.row-with-border {
+  margin-bottom: 10px; /* Optional: Add margin between rows */
+}
+
+.link-list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Add solid border to each row */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+.delete-btn {
+  cursor: pointer;
+  color: blue;
+}
+
+/* Hover effect for the delete button */
+.delete-btn:hover {
+  color: darkblue;
+}
+
+
+.text-input-search-btn {
+  position: absolute;
+  top: 1px;
+  right: 5px;
+  padding: 0.4rem;
+   background-color:#fff 
+}
+.ql-editor {
+  background-color: #fff !important;
+}

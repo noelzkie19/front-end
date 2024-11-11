@@ -1,0 +1,47 @@
+import {MasterReferenceOptionModel, OptionListModel} from '../../../common/model';
+import {CommunicationProviderAccountUdt} from '../../user-management/models';
+
+export interface ICaseCommunicationProps {
+	masterReferenceOptions: Array<MasterReferenceOptionModel>;
+	selectedMessageType: any;
+	setSelectedMessageType: (e: any) => void;
+	selectedMessageStatus: any;
+	setSelectedMessageStatus: (e: any) => void;
+	selectedMessageResponse: any;
+	setSelectedMessageResponse: (e: any) => void;
+	setIsContactable: (e: boolean) => void;
+	setStartCommunicationDate: (e: any) => void;
+	setStartCommunicationDatePost: (e: string) => void;
+	setEndCommunicationDate: (e: any) => void;
+	setEndCommunicationDatePost: (e: string) => void;
+	openStartCommunication: boolean;
+	setOpenStartCommunication: (e: boolean) => void;
+	startCommunicationDate: any;
+	setOpenEndCommunication: (e: boolean) => void;
+	openEndCommunication: boolean;
+	endCommunicationDate: any;
+	editorKey: number;
+	setConvertedContent: (e: any) => void;
+	messageStatusOptionList: Array<OptionListModel>;
+	selectedPurpose: any;
+	setSelectedPurpose: (e: any) => void;
+	hasCallingOnCreateCase: boolean;
+	getMessageResponseOptionById: (e: number) => void;
+	messageResponseOptionList: Array<OptionListModel>;
+	getMessageStatusOptionById: (e: number) => void;
+	convertedContent: any;
+	setHasCdr: (e: boolean) => void;
+	isDisableCreateCaseWhenHasCdr: boolean;
+	dialID: any;
+	setDialID: (e: any) => void;
+	mobilePhone: string;
+	paramPlayerId: string;
+	setIsDisableCreateCaseWhenHasCdr: (e: boolean) => void;
+	setHasCallingOnCreateCase: (e: boolean) => void;
+	disableCall: boolean;
+	retrievedFlyfoneCdrData: any;
+	retrievedCloudTalkCdrData: any;
+	retrievedSamespaceCdrData: any;
+	commProviderProps: CommunicationProviderAccountUdt[] | undefined;
+	caseMlabPlayerId: any;
+}

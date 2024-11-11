@@ -1,0 +1,88 @@
+#comment-history-tabpane-comment>div>div {
+    background-color: transparent;
+}
+
+.edit-comment-card {
+    margin-bottom: 20px;
+}
+
+.ticket-edit-delete-btn-container > button.btn.btn-secondary.btn-sm.me-2,
+.ticket-edit-delete-btn-container > button.btn.btn-secondary.btn-sm.me-2:hover,
+.ticket-edit-delete-btn-container > .btn:not(.btn-outline):not(.btn-dashed):not(.border-hover):not(.border-active):not(.btn-flush):not(.btn-icon).btn-sm {
+    color: #009EF7;
+    font-weight: bold;
+    background-color: transparent !important;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.ticket-edit-delete-btn-container > button.btn.btn-secondary.btn-sm.me-2.edit-comment-btn {
+    margin-right: 20px !important;
+}
+
+.comment-header {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.view-old-comment {
+    width: 100%;
+}
+
+.comment-history-container {
+    margin: 40px 0px;
+}
+
+.comment-history-container>nav {
+    border: none;
+    margin-bottom: 20px;
+}
+
+nav>a[id*='comment-history-tab'],
+nav>a[id*='comment-history-tab'].nav-link,
+nav>a[id*='comment-history-tab'].nav-link.active,
+nav>a[id*='comment-history-tab'].nav-link:hover,
+nav>a[id*='comment-history-tab'].nav-link:focus {
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.card.card-custom>.edit-comment-card.fade-add {
+    animation: fadeIn 2500ms ease-out 1ms forwards;
+    transition-delay: 0ms;
+}
+
+
+.card.card-custom>.edit-comment-card.fade-delete {
+    animation: fadeOut 1000ms ease-out 1000ms forwards;
+    transition-delay: 0ms;
+}
+
+.hidden-field {
+    display: none;
+}
+
+.show-field {
+    display: block;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

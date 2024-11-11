@@ -1,0 +1,51 @@
+.text-comment {
+    width: 60%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    min-height: 40px;
+}
+
+.comment-btn {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+}
+
+.comment-btn .action-btn {
+    background-color: transparent;
+    color: #009ef7;
+}
+
+.comment-btn .action-btn[title="add"] {
+    margin: 0 auto;
+}
+
+.ag-row {
+    z-index: 0;
+
+    &.ag-row-focus {
+        z-index: 1;
+    }
+}
+
+.dropdown-tooltip .tooltip-inner {
+    text-align: start;
+}
+
+.main-total-score-container span {
+    margin-right: 20px;
+}
+
+.main-total-score-container input{
+    text-align: right;
+}
+
+.react-select-menu {
+    z-index: 9999;
+}
+
+.overlap-ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

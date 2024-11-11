@@ -1,0 +1,13 @@
+button.btn.btn-link.accordion-ticket-search-filter-header,
+button.btn.btn-link.accordion-ticket-search-filter-header:hover,
+button.btn.btn-link.accordion-ticket-search-filter-header:focus {
+    color:#5e6278;
+    cursor: default;
+}
+
+.auto-refresh-toggle-container .form-check.form-check-custom {
+    padding-left: 3.75rem;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 2.9;
+}
